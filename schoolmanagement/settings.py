@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'schoolmanagement.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd6tfn50vvl64i',
-        'HOST': 'cah8ha8ra8h8i7.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com',
-        'USER': 'uct8kj3htcp304',
-        'PASSWORD': 'pf4172ca24c3960433946eb005f168e22b657b7b09ea84f6766e149605cb013c5',
+        'NAME': 'd47csmjdj2anco',
+        'HOST': 'cd3vj4tb0qabuf.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'USER': 'u9m8onbrhnj4qr',
+        'PASSWORD': 'pbf05dbc7a68dfa22e0d3e99050c8f4429a448fb7067332714d502f9e916b4b7d',
         'PORT': 5432
     }
 }
@@ -162,3 +162,5 @@ EMAIL_HOST_PASSWORD = 'xyz' # host email password required
 # otherwise you will get SMTPAuthenticationError at /contactus
 # this process is required because google blocks apps authentication by default
 EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messages sent from website
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
